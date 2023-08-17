@@ -1,6 +1,6 @@
 .design {
 color:#4D5AE5;
-font-family:Roboto;
+font-family: Raleway;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -37,4 +37,7 @@ color:#434455 ;
 }
 .classes {
 background-color: #FFFFFF
+}
+.styles-body {
+font-family: Roboto;
 }
