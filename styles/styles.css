@@ -1,12 +1,12 @@
 .design {
-    color:#4D5AE5;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+color:#4D5AE5;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17px;
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 .studio {
 font-size: 18px;
@@ -34,4 +34,7 @@ color:#434455 ;
 }
 .three-section {
  background-color:#F4F4FD ;
+}
+.classes {
+background-color: #FFFFFF
 }
