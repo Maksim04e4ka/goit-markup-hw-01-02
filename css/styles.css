@@ -112,9 +112,7 @@ letter-spacing: 0.04em;
 color: #ffffff;
 cursor: pointer;
 }
-.button-first:hover {
-background-color: #404BBF;
-}
-.button:focus {
+.social-links .link:hover,
+.social-links .link:focus {
 background-color: #404BBF;
 }
