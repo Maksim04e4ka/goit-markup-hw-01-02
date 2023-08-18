@@ -112,9 +112,7 @@ letter-spacing: 0.04em;
 color: #ffffff;
 cursor: pointer;
 }
-.button-first:hover {
-background-color: #404BBF;
-}
+.section-first .button-first:hover,
 .section-first .button-first:focus {
 background-color: #404BBF;
 }
