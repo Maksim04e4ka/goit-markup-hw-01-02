@@ -115,3 +115,6 @@ cursor: pointer;
 .button-first:hover {
 background-color: #404BBF;
 }
+.button-first:focus {
+background-color: #404BBF;
+}
