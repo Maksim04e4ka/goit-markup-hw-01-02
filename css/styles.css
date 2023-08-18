@@ -147,3 +147,6 @@ letter-spacing: 0.02em;
 .first-li .color-first-li:focus {
 color: #404bbf;
 }
+.from-address {
+font-style: normal;
+}
