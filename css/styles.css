@@ -116,7 +116,7 @@ cursor: pointer;
 .section-first .button-first:focus {
 background-color: #404BBF;
 }
-.three-section {
+.section-three {
 background-color: #F4F4FD;
 font-size: 36px;
 line-height: 1.11;
@@ -128,4 +128,16 @@ color: #2e2f42;
 .first-li .first-elem,
 .first-li .first-elem {
 color: #404bbf;
+}
+.three-section {
+background-color: #F4F4FD;
+}
+.four-sect {
+color:#2E2F42;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.4px;
 }
