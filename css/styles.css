@@ -71,22 +71,4 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.32px;
 }
-.section-first {
-width: 1440px;
-background:#2E2F42;
-height: 600px;
-flex-shrink: 0;
-}
-h1 {
-color:#FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: 1.12px;
-}
-button {
-background-color: #4D5AE5 
-}
+
