@@ -139,4 +139,11 @@ background-color: #FFFFFF;
 }
 .color-first-li {
 color:#2e2f42;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.first-li .color-first-li:hover,
+.first-li .color-first-li:focus {
+color: #404bbf;
 }
