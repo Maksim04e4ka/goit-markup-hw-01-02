@@ -54,13 +54,13 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
  }
 .increase {
-    color:#F4F4FD;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+color:#F4F4FD;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
     }
 .first-elem {
 color:#2E2F42;
@@ -80,10 +80,15 @@ font-style: normal;
 font-weight: 700;
 line-height: 60px;
 letter-spacing: 1.12px;
+line-height: 1.07;
 }
 .section-first {
-background-color:#2e2f42
+background-color:#2e2f42;
 }
 address {
 font-style: normal;
+}
+button {
+background-color: #4D5AE5;
+font-family: Roboto,sans-serif;
 }
