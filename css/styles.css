@@ -168,3 +168,16 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+.email {
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.email-tel .email:hover,
+.email-tel .email:focus {
+color: #404bbf;
+}
+.email .from-address:hover,
+.email .from-address:focus {
+color: #404bbf;
+}
