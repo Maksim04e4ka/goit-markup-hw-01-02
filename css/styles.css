@@ -176,3 +176,7 @@ color: #434455;
 .from-nav {
 color:#434455;
 }
+.from-nav:hover,
+.from-nav:focus { 
+color: #404bbf;
+}
