@@ -180,3 +180,15 @@ color:#434455;
 .from-nav:focus { 
 color: #404bbf;
 }
+img {
+display: block;
+}
+.from-header {
+border-bottom: 1px solid #e7e9fc;
+}
+.div-class {
+display: flex;
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px 0 15px;
+}
