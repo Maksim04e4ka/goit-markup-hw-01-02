@@ -33,6 +33,7 @@ font-weight: 700;
 line-height: 1.11; 
 letter-spacing: 0.72px;
 text-transform: capitalize;
+margin-bottom: 72px;
  }
 .three-section {
 background-color:#F4F4FD ;
@@ -163,9 +164,13 @@ font-style: normal;
 }
 .our-team {
 background-color: #F4F4FD;
+padding: 120px 0;
+
 }
 .first-li-team {
 background-color: #FFFFFF;
+width: calc((100%-3*24px)/4);
+border-radius: 0px 0px 4px 4px;
 }
 .first-team {
 font-weight: 500;
@@ -238,4 +243,8 @@ white-space: nowrap;
 clip-path: inset(100%);
 clip: rect(0 0 0 0);
 overflow: hidden;
+}
+.ul-number-three {
+display: flex;
+gap: 24px;
 }
