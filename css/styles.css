@@ -74,9 +74,11 @@ font-weight: 700;
 line-height: 60px;
 letter-spacing: 1.12px;
 line-height: 1.07;
+max-width: 496px;
 }
 .section-first {
 background-color:#2e2f42;
+padding: 188px 0;
 }
 address {
 font-style: normal;
