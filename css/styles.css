@@ -149,7 +149,7 @@ padding-bottom: 120px;
 }
 .four-sect-li {
 background-color: #FFFFFF;
-width: calc((100%-48px)/3);
+width: calc((100% - 48px) / 3);
 }
 .color-first-li {
 color:#2e2f42;
