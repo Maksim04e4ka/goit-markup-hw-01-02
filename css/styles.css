@@ -143,6 +143,7 @@ color:#2e2f42;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding: 24px 0;
 }
 .first-li .color-first-li:hover,
 .first-li .color-first-li:focus {
@@ -198,6 +199,10 @@ display: flex;
 align-items: center;
 }
 .first-li {
+display: flex;
+gap: 40px;
+}
+.adress-info {
 display: flex;
 gap: 40px;
 }
