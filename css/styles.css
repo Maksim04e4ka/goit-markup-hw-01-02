@@ -90,6 +90,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color:#2e2f42;
+margin-bottom: 8px;
 }
 .par-sect-two {
 font-size: 16px;
@@ -215,4 +216,14 @@ gap: 40px;
 }
 .div-container {
 display: flex;
+}
+.section-number-two {
+padding: 120px 0;
+}
+.ul-number-two {
+display: flex;
+gap: 24px;
+}
+.li-number-one {
+width:calc((100%-72px)/4);
 }
