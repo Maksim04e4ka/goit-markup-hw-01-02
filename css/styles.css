@@ -34,7 +34,7 @@ line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 margin-bottom: 72px;
- }
+}
 .three-section {
 background-color:#F4F4FD ;
 }
@@ -144,9 +144,12 @@ letter-spacing: 0.32px;
 }
 .sect-four {
 background-color: #F4F4FD;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .four-sect-li {
 background-color: #FFFFFF;
+width: calc((100%-48px)/3);
 }
 .color-first-li {
 color:#2e2f42;
@@ -258,4 +261,15 @@ ul {
 margin: 0;
 padding-left: 0;
 list-style: none;
+}
+.ul-number-four {
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
+}
+.div-number-four {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
 }
