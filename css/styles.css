@@ -197,14 +197,13 @@ display: block;
 border-bottom: 1px solid #e7e9fc;
 }
 .container {
-display: flex;
 width: 1158px;
 margin: 0 auto;
 padding: 0 15px 0 15px;
 }
 .nav-header {
-display: flex;
 align-items: center;
+display: flex;
 }
 .first-li {
 display: flex;
@@ -213,4 +212,7 @@ gap: 40px;
 .adress-info {
 display: flex;
 gap: 40px;
+}
+.div-container {
+display: flex;
 }
