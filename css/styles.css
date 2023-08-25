@@ -7,6 +7,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
+margin-right: 76px;
 }
 .studio {
 font-size: 18px;
@@ -191,4 +192,12 @@ display: flex;
 width: 1158px;
 margin: 0 auto;
 padding: 0 15px 0 15px;
+}
+.nav-header {
+display: flex;
+align-items: center;
+}
+.first-li {
+display: flex;
+gap: 40px;
 }
