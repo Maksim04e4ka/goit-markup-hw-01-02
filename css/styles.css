@@ -1,5 +1,5 @@
 .design {
-color:#404bbf;
+color:#4D5AE5;
 font-family: Raleway,sans-serif;
 font-size: 18px;
 font-style: normal;
@@ -279,6 +279,13 @@ padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
 }
-.class-menu {
-position: relative;
+.class-menu::after {
+color: #404bbf;
+content: '';
+position: absolute;
+left: 0;
+bottom: -1px;
+height: 4px;
+background-color: #404bbf;
+border-radius: 2px;
 }
