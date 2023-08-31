@@ -84,6 +84,11 @@ margin: auto;
 .section-first {
 background-color:#2e2f42;
 padding: 188px 0;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+max-width: 1440px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 address {
 font-style: normal;
@@ -119,6 +124,7 @@ border: none;
 background-color: #4D5AE5;
 border-radius: 4px;
 margin: auto;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-first .button-first:hover,
 .section-first .button-first:focus {
