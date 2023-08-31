@@ -10,6 +10,8 @@ text-transform: uppercase;
 margin-right: 76px;
 display: inline-block;
 margin-bottom: 16px;
+position: relative;
+color: #404bbf;
 }
 .studio {
 font-size: 18px;
