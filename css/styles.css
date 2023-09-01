@@ -294,4 +294,8 @@ background-color: #f4f4fd;
 border-radius: 4px;
 margin-bottom: 8px;
 }
+.footer {
+display: flex;
+align-items: baseline;
+}
 
