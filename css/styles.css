@@ -335,6 +335,7 @@ background-color: #404bbf;
 }
 .div-footer {
 margin-right: 120px;
+display: flex;
 }
 .logotype-icon-inst {
 fill: #f4f4fd;
@@ -356,4 +357,12 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .container-div {
 position: relative;
 overflow: hidden;
+}
+.par-footer {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#FFFFFF;
+margin-bottom: 16px;
 }
