@@ -66,7 +66,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.32px;
- }
+margin-bottom: 16px;
+}
 
 .effective{
 color:#FFF;
@@ -335,7 +336,6 @@ background-color: #404bbf;
 }
 .div-footer {
 margin-right: 120px;
-display: flex;
 }
 .logotype-icon-inst {
 fill: #f4f4fd;
@@ -394,6 +394,7 @@ gap: 16px;
 .link-footer {
 width: 40px;
 height: 40px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .click-footer {
 width: 100%;
