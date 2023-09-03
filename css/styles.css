@@ -177,7 +177,6 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 padding: 24px 0;
-position: relative;
 }
 .first-li .color-first-li:hover,
 .first-li .color-first-li:focus {
@@ -417,4 +416,17 @@ display: flex;
 }
 .main-footer-container {
 display: flex;
+}
+.current {
+position: relative;
+color: #404bbf;
+}
+.current::after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -1px;
+height: 4px;
+background-color: #404bbf;
+border-radius: 2px;
 }
