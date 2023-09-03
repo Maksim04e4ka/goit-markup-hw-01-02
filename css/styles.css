@@ -336,10 +336,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+
+.link-network:focus,
 .link-network:hover {
-background-color: #404BBF;
-}
-.link-network:focus {
 background-color: #404bbf;
 }
 .div-footer {
