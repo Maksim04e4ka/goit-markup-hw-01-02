@@ -10,6 +10,7 @@ text-transform: uppercase;
 margin-right: 76px;
 display: inline-block;
 margin-bottom: 16px;
+position: relative;
 }
 .studio {
 font-size: 18px;
@@ -239,7 +240,6 @@ align-items: baseline;
 .nav-header {
 align-items: center;
 display: flex;
-position: relative;
 }
 .first-li {
 display: flex;
