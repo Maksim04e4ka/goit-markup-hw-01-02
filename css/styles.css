@@ -435,3 +435,6 @@ background-color: #404bbf;
 border-radius: 2px;
 content: "";
 }
+.section-first {
+background-image:url(people-office.jpg);
+}
