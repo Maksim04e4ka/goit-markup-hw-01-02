@@ -239,6 +239,7 @@ align-items: baseline;
 .nav-header {
 align-items: center;
 display: flex;
+position: relative;
 }
 .first-li {
 display: flex;
