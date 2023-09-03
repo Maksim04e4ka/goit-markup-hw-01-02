@@ -9,8 +9,6 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 margin-right: 76px;
 display: inline-block;
-margin-bottom: 16px;
-position: relative;
 }
 .studio {
 font-size: 18px;
@@ -244,6 +242,7 @@ display: flex;
 .first-li {
 display: flex;
 gap: 40px;
+position: relative;
 }
 .adress-info {
 display: flex;
