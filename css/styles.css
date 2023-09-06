@@ -168,7 +168,6 @@ line-height: 24px;
 letter-spacing: 0.32px;
 }
 .sect-four {
-background-color: #F4F4FD;
 padding-top: 120px;
 padding-bottom: 120px;
 }
@@ -438,7 +437,4 @@ content: "";
 }
 .four-sect-li:hover {
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-.sect-four {
-color: #FFF;
 }
