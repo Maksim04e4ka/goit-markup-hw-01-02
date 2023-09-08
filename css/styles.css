@@ -467,3 +467,8 @@ p {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+.form-modal {
+  display: flex;
+  gap: 24px;
+  
+}
