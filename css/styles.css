@@ -552,7 +552,7 @@ color: #ffffff;
 .person {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.person:hover,
-.person:focus {
+.modal-window:hover,
+.modal-window:focus {
   fill: #ffffff;
 }
