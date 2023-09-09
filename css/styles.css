@@ -651,7 +651,7 @@ margin-left: 80px;
   justify-content: center;
   fill: transparent;
 }
-.input-five-element:checked + .span-five {
+.input-five-element:checked + .label-privacy > .span-five {
 background-color: #404bbf;
 border: none;
 fill: #F4F4FD;
