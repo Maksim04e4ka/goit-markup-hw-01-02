@@ -109,6 +109,9 @@ font-weight: 700;
 line-height: 40px;
 letter-spacing: 0.72px;
 text-transform: capitalize;
+margin-left: 16px;
+margin-top: 40px;
+margin-right: 153px;
 }
 /* .from-header {
     border-bottom: 1px solid #e7e9fc;
