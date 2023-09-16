@@ -58,11 +58,14 @@
     background-color: #1e1823;
     z-index: 99999999;
 }
-.mobile-menu-close-icon {
+.mobile-menu-close-btn {
     border: none;
     background-color: transparent;
     padding: 0;
     line-height: 0;
+}
+.mobile-menu-close-icon {
+    stroke: var(--secondary-color);
 }
 
 /* .from-header {
