@@ -7,6 +7,11 @@
 .first-li {
     display: none;
 }
+.div-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .design {
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
