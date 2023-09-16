@@ -55,7 +55,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #1e1823;
+    background: #FFF;
     z-index: 99999999;
     transform: translateX(100%);
     transition: transform 250ms ease-out;
@@ -73,7 +73,7 @@
     line-height: 0;
 }
 .mobile-menu-close-icon {
-    stroke: white
+    stroke: var(--secondary-color);
 }
 
 /* .from-header {
