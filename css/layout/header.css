@@ -16,8 +16,6 @@
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    padding-top: 17.5px;
-    padding-bottom: 17.5px;
 }
 .studio {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -28,8 +26,20 @@
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.from-header {
     padding-top: 17.5px;
     padding-bottom: 17.5px;
+    padding-left: 16px;
+}
+.open-mobile-menu-btn {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+}
+.open-mobile-menu-btn {
+    stroke: #2F2F37;
 }
 
 /* .from-header {
