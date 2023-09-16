@@ -1,8 +1,11 @@
-.menu {
-    display: none;
+/* ONLY MOBILE */
+@media screen and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+    .from-address {
+        display: none;
 }
-.from-address {
-    display: none;
 }
 .first-li {
     display: none;
@@ -87,9 +90,25 @@
     .open-mobile-menu-btn {
         display: none;
     }
-    .menu {
+    .first-li {
         display: flex;
     }
+    .from-address {
+        display: flex;
+    }
+}
+.mobile-menu {
+    display: none;
+}
+.modal-window-mobile-phone {
+color: var(--NAVY-BLUE, #2E2F42);
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+text-transform: capitalize;
 }
 /* .from-header {
     border-bottom: 1px solid #e7e9fc;
