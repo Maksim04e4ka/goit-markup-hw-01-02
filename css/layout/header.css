@@ -97,9 +97,6 @@
         display: flex;
     }
 }
-.mobile-menu {
-    display: none;
-}
 .modal-window-mobile-phone {
 color: var(--NAVY-BLUE, #2E2F42);
 font-family: Roboto;
