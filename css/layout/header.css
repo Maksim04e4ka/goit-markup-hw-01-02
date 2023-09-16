@@ -60,6 +60,9 @@
 }
 .mobile-menu-close-btn {
     border: none;
+    position: absolute;
+    top: 32px;
+    right: 32px;
     background-color: transparent;
     padding: 0;
     line-height: 0;
