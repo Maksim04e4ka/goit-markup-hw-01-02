@@ -58,6 +58,12 @@
     background-color: #1e1823;
     z-index: 99999999;
 }
+.mobile-menu-close-icon {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+}
 
 /* .from-header {
     border-bottom: 1px solid #e7e9fc;
