@@ -218,17 +218,16 @@ gap: 40px;
         .first-li {
         padding-left: 76px;
         }
-        .from-address {
-            display:flex;
+        .address-info {
+            display: flex;
+            flex-direction: row;
         }
         .design {
             padding-left: 156px;
             padding-top: 25.5px;
             padding-bottom: 25.5px;
         }
-        .address-info {
-            flex-direction: row;
-        }
+        
     }
 /* .from-header {
     border-bottom: 1px solid #e7e9fc;
