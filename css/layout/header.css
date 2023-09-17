@@ -5,6 +5,10 @@
     }
     .from-address {
         display: none;
+        
+}
+.section-first {
+    background-image: url(../images/people-office);    
 }
 }
 .first-li {
@@ -144,9 +148,7 @@ margin-right: 16px;
         align-items: center;
     }
     .section-first {
-        background-image: url(../images/people-office);
-        width: 320px;
-        height: 432px;    
+        background-image: url(../images/people-office);    
     }
 }
 .modal-window-mobile-phone {
@@ -233,7 +235,9 @@ gap: 40px;
             padding-top: 25.5px;
             padding-bottom: 25.5px;
         }
-        
+        .section-first {
+            background-image: url(../images/people-office);    
+        }
     }
 
 /* .from-header {
