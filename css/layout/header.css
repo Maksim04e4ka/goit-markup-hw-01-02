@@ -143,7 +143,7 @@ margin-right: 16px;
         display: flex;
         align-items: center;
     }
-}
+
 .modal-window-mobile-phone {
 color: var(--NAVY-BLUE, #2E2F42);
 font-family: Roboto;
@@ -212,7 +212,9 @@ gap: 40px;
     }
     .click-footer:focus {
     background-color: #31d0aa;
-    }
+
+}
+}
     /* FOR LAPTOP */
     @media screen and (min-width: 1158px) {
         .first-li {
@@ -227,8 +229,9 @@ gap: 40px;
             padding-top: 25.5px;
             padding-bottom: 25.5px;
         }
-        
-    }
+    
+    } 
+
 /* .from-header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
