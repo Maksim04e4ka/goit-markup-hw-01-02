@@ -119,11 +119,25 @@ padding-left: 120px;
         letter-spacing: 0.48px;
         padding-right: 16px;
 }
-.from-nav
+.address-info {
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+}
     .from-header {
         padding-top: 25.5px;
         padding-bottom: 25.5px;
         padding-left: 16px;
+    }
+    .from-nav {
+color: var(--SLATE, #434455);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.48px;
+margin-right: 16px;
     }
     .nav-header {
         display: flex;
@@ -199,7 +213,23 @@ gap: 40px;
     .click-footer:focus {
     background-color: #31d0aa;
     }
-
+    /* FOR LAPTOP */
+    @media screen and (min-width: 1158px) {
+        .first-li {
+        padding-left: 76px;
+        }
+        .from-address {
+            display:flex;
+        }
+        .design {
+            padding-left: 156px;
+            padding-top: 25.5px;
+            padding-bottom: 25.5px;
+        }
+        .address-info {
+            flex-direction: row;
+        }
+    }
 /* .from-header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
