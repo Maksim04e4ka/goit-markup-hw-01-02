@@ -6,6 +6,35 @@
     .from-address {
         display: none;
 }
+.section-two {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.ul-number-two {
+    display: inline-block;
+}
+.div-antenna {
+    display: none;
+}
+.info-two-sect {
+color: var(--SLATE, #434455);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+padding-top: 8px;
+padding-bottom: 72px;
+text-align: center;
+}
 }
 .first-li {
     display: none;
@@ -35,6 +64,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
 .from-header {
     padding-top: 17.5px;
     padding-bottom: 17.5px;
@@ -53,9 +83,7 @@
 .open-mobile-menu-btn {
     stroke: #2F2F37;
 }
-.section-first {
-    background-image: url(../images/people-office);    
-}
+
 .mobile-menu {
     position: fixed;
     left: 0;
@@ -86,6 +114,7 @@
 .open-mobile-menu-btn:focus {
     stroke: var(--accent-color);
 }
+
 .open-mobile-menu-icon {
     transition: stroke 250ms ease-out;
 }
@@ -145,8 +174,7 @@ margin-right: 16px;
     .nav-header {
         display: flex;
         align-items: center;
-    }
-    
+    }   
 }
 .modal-window-mobile-phone {
 color: var(--NAVY-BLUE, #2E2F42);
@@ -231,8 +259,8 @@ gap: 40px;
         .design {
             padding-top: 25.5px;
             padding-bottom: 25.5px;
-        }
-        
+        } 
+
     }
 
 /* .from-header {
