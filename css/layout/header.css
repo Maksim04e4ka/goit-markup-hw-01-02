@@ -145,6 +145,8 @@ margin-right: 16px;
     }
     .section-first {
         background-image: url(../images/people-office);
+        width: 320px;
+        height: 432px;    
     }
 }
 .modal-window-mobile-phone {
