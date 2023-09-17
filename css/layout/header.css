@@ -10,6 +10,21 @@
 .first-li {
     display: none;
 }
+.navigation-mobile-version {
+    color: var(--SLATE, #434455);
+
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+}
+.navigation-mobile-version:hover,
+.navigation-mobile-version:focus {
+    color: var(--IRIS, #4D5AE5);
+}
 .div-container {
     display: flex;
     align-items: center;
