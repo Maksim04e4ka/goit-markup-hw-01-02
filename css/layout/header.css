@@ -34,8 +34,11 @@ letter-spacing: 0.32px;
 padding-top: 8px;
 padding-bottom: 72px;
 text-align: center;
+padding-left: 16px;
+padding-right: 16px;
 }
 }
+
 .first-li {
     display: none;
 }
@@ -175,6 +178,15 @@ margin-right: 16px;
         display: flex;
         align-items: center;
     }   
+    .div-antenna {
+        display: none;
+    }
+    .second-section-one {
+        display: block;
+    }
+    .second-section-two {
+        display: block;
+    }
 }
 .modal-window-mobile-phone {
 color: var(--NAVY-BLUE, #2E2F42);
