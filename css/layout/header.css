@@ -181,12 +181,7 @@ margin-right: 16px;
     .div-antenna {
         display: none;
     }
-    .second-section-one {
-        display: block;
-    }
-    .second-section-two {
-        display: block;
-    }
+
 }
 .modal-window-mobile-phone {
 color: var(--NAVY-BLUE, #2E2F42);
@@ -204,6 +199,9 @@ text-decoration: none;
 .modal-window-mobile-phone:hover
 .modal-window-mobile-phone:focus {
 color: var(--OCEAN, #404BBF);
+}
+.color-first-li {
+    position: relative;
 }
 .mobile-li {
 margin-left: 16px;
@@ -272,7 +270,58 @@ gap: 40px;
             padding-top: 25.5px;
             padding-bottom: 25.5px;
         } 
-
+        .div-antenna {
+            display: flex;
+        }
+        .section-two {
+            display: flex;
+        }
+        .section-two {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color:#2e2f42;
+            margin-bottom: 8px;
+            }
+            .info-two-sect {
+            color: var(--SLATE, #434455);
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.32px;
+            }
+            .section-number-two {
+                padding: 120px 0;
+                }
+                .ul-number-two {
+                    display: flex;
+                    gap: 24px;
+                    flex-wrap: nowrap;
+                    padding: 0 auto;
+                    }
+                    .li-number-one {
+                    flex-basis: calc((100%-3*24px)/4);
+                    width: calc((100% - 72px)/ 4);
+                    }
+                    .visually-hidden {
+                        position: absolute;
+                        width: 1px;
+                        height: 1px;
+                        margin: -1px;
+                        border: 0;
+                        padding: 0;
+                        white-space: nowrap;
+                        clip-path: inset(100%);
+                        clip: rect(0 0 0 0);
+                        overflow: hidden;
+                        }
+                        .div-antenna {
+                            display: flex;
+                        }
+        
     }
 
 /* .from-header {
