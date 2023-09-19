@@ -17,9 +17,7 @@
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-.ul-number-two {
-    display: inline-block;
-}
+
 .div-antenna {
     display: none;
 }
@@ -36,6 +34,9 @@ padding-bottom: 72px;
 text-align: center;
 padding-left: 16px;
 padding-right: 16px;
+}
+.ul-number-two {
+    display: inline-block;
 }
 
 }
@@ -182,6 +183,10 @@ margin-right: 16px;
     .div-antenna {
         display: none;
     }
+    .ul-number-three {
+        display: flex;
+        gap: 24px;
+        }
 
 }
 .modal-window-mobile-phone {
@@ -327,6 +332,12 @@ gap: 40px;
                             padding: 0 15px 0 15px;
                             align-items: baseline;
                         }
+                        .first-li-team {
+                            background-color: #FFFFFF;
+                            width: calc((100% - 3 * 24px)/4);
+                            border-radius: 0px 0px 4px 4px;
+                            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
+                            }
         
     }
 
