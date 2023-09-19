@@ -204,7 +204,9 @@ margin-right: 16px;
         display: flex;
         gap: 24px;
         }
-
+        .first-li-team {
+            flex-wrap: calc() - calc((100%-24%)/2);
+        }
 }
 .modal-window-mobile-phone {
 color: var(--NAVY-BLUE, #2E2F42);
