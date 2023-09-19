@@ -145,6 +145,12 @@ padding-right: 16px;
     .open-mobile-menu-btn {
         display: none;
     }
+    .portfolio {
+padding-top: 96px;
+    }
+    .container {
+        max-width: 584px;
+    }
     .first-li {
 color: var(--NAVY-BLUE, #2E2F42);
 font-family: Roboto;
@@ -203,10 +209,15 @@ margin-right: 16px;
     .ul-number-three {
         display: flex;
         gap: 24px;
+        flex-wrap: wrap;
         }
-        .first-li-team {
-            flex-wrap: calc() - calc((100%-24%)/2);
-        }
+
+.first-li-team {
+width: calc((100% - 24px) /2);
+border-radius: 0px 0px 4px 4px;
+background: var(--WHITE, #FFF);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 }
 .modal-window-mobile-phone {
 color: var(--NAVY-BLUE, #2E2F42);
