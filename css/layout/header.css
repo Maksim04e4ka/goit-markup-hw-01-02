@@ -73,9 +73,7 @@ align-items: flex-start;
 gap: 8px;
 align-self: stretch;
 }
-.ul-number-four {
-    gap: 48px;
-}
+
 }
 
 .first-li {
