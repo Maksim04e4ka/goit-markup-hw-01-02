@@ -53,7 +53,9 @@ padding-right: 16px;
     line-height: 1.5;
     text-align: center;
     margin-bottom: 8px;
-
+}
+.ul-number-four {
+    width: calc((100%-32px/1));
 }
 
 }
@@ -218,6 +220,13 @@ border-radius: 0px 0px 4px 4px;
 background: var(--WHITE, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+.ul-number-four {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    max-width: 768px;
+    }
 }
 .modal-window-mobile-phone {
 color: var(--NAVY-BLUE, #2E2F42);
@@ -357,7 +366,7 @@ gap: 40px;
                             display: flex;
                         }
                         .container {
-                            width: 1158px;
+                            max-width: 1158px;
                             padding-left: 15px;
                             padding-right: 15px;
                         }
