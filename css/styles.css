@@ -386,7 +386,9 @@ h6,
 p {
   margin: 0;
 }
-
+.telegram-subs {
+  fill: #FFFFFF;
+}
 .color-first-li {
  display: block;
 }
