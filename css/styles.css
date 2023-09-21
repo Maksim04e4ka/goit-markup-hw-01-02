@@ -402,6 +402,9 @@ p {
   /* display: flex; */
   gap: 24px;
 }
+.telegram-subs {
+  stroke: #f4f4fd;
+}
 .name-modal {
 width: 264px;
 height: 40px;
