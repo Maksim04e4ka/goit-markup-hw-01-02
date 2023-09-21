@@ -105,6 +105,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5em;
 letter-spacing: 0.02em;
+margin-left: 112px;
     }
     .footer-social-media {
         margin-bottom: 72px;
@@ -112,7 +113,55 @@ letter-spacing: 0.02em;
     .container {
         max-width: 320px;
     }
-}
+    .ul-footer {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        margin-left: 56px;
+    }
+    .p-modal {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .name-modal {
+        border-radius: 4px;
+        border: 1px solid #fff;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        height: 40px;
+        background-color: transparent;
+        padding-left: 16px;
+        width: 288px;
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        color: #ffffff;
+        margin-bottom: 16px;
+    }
+    .form-button {
+        display: flex;
+        margin-left: 24px;
+        border-radius: 4px;
+        background-color: #4d5ae5;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        min-width: 165px;
+        border: none;
+    }
+    }
+
 .first-li {
     display: none;
 }

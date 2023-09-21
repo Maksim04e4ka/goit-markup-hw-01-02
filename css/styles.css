@@ -359,9 +359,10 @@ background-color: #31d0aa;
 .div-class-cont {
 display: flex;
 }
-.main-footer-container {
+/* .main-footer-container {
 display: flex;
-}
+} */
+
 .current::after {
 position: absolute;
 width: 100%;
