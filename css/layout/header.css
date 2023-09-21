@@ -85,6 +85,7 @@ align-self: stretch;
         line-height: 21px;
         letter-spacing: 0.3;
         text-transform: uppercase;
+        margin-left: 102px;
     }
     .increase {
         color:#f4f4fd;
@@ -93,6 +94,9 @@ align-self: stretch;
         letter-spacing: 0.02em;
         line-height: 1.5;
         width: 288px;
+        margin-left: 26px;
+        padding-top: 17.5px;
+        padding-bottom: 72px;
     }
     .par-footer {
 color: #FFF;
@@ -102,8 +106,9 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5em;
 letter-spacing: 0.02em;
-margin-left: 112px;
+margin-left: 102px;
     }
+
     .footer-social-media {
         margin-bottom: 72px;
     }
@@ -161,6 +166,12 @@ margin-left: 112px;
         margin-top: 16px;
         margin-bottom: 96px;
     }
+    .div-footer {
+        display: flex;
+         flex-direction: column;
+          align-items: center;
+    }
+
     }
 
 .first-li {
