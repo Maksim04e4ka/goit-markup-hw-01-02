@@ -272,6 +272,16 @@ margin-left: 102px;
     .open-mobile-menu-btn {
         display: none;
     }
+    .class-from-footer-link {
+        color: var(--IRIS, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.3;
+        text-transform: uppercase;
+    }
     .portfolio {
 padding-top: 96px;
     }
@@ -358,6 +368,22 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     .portfolio {
         padding-top: 96px;
     }
+    .design {
+        margin-left: 108px;
+        width: 44px;
+        color: var(--IRIS, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+    }
+    .increase {
+        margin-left: 108px;
+        margin-top: 17.5px;
+    }
 }
 .modal-window-mobile-phone {
 color: var(--NAVY-BLUE, #2E2F42);
@@ -435,6 +461,16 @@ gap: 40px;
     @media screen and (min-width: 1158px) {
         .first-li {
         padding-left: 76px;
+        }
+        .class-from-footer-link {
+            color: var(--IRIS, #4D5AE5);
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 21px;
+            letter-spacing: 0.3;
+            text-transform: uppercase;
         }
         .adress-info {
             display: flex;
