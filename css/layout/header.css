@@ -78,16 +78,13 @@ align-self: stretch;
     }
     .design {
         color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-line-height: 21px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-line-height: 1.17;
-margin-right: 76px;
-margin-bottom: 16px;
-display: inline-block;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.3;
+        text-transform: uppercase;
     }
     .increase {
         color:#f4f4fd;
