@@ -247,7 +247,10 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     }
     
     .four-sect-li {
-        width: calc((100%-24px)/2);
+        width: calc((100% - 24px)/2);
+    }
+    .portfolio {
+        padding-top: 96px;
     }
 }
 .modal-window-mobile-phone {
@@ -399,7 +402,10 @@ gap: 40px;
                             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
                             gap: 24px;
                             }
-                            
+                            .ul-number-four {
+                                display: flex;
+                                gap: 24px;
+                            }
                             }
                             
 
