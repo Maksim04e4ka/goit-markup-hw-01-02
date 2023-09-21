@@ -80,24 +80,39 @@ align-self: stretch;
         color: var(--IRIS, #4D5AE5);
 font-family: Raleway;
 font-size: 18px;
-font-style: normal;
 font-weight: 700;
 line-height: 21px;
-letter-spacing: 0.54px;
+letter-spacing: 0.03em;
 text-transform: uppercase;
+line-height: 1.17;
+margin-right: 76px;
+margin-bottom: 16px;
+display: inline-block;
     }
-    .bottom-studio {
-        color: var(--CLOUD, #F4F4FD);
-font-family: Raleway;
-font-size: 18px;
+    .increase {
+        color:#f4f4fd;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
+        width: 288px;
+    }
+    .par-footer {
+color: #FFF;
+font-family: Roboto;
+font-size: 16px;
 font-style: normal;
-font-weight: 700;
-line-height: 21px;
-letter-spacing: 0.54px;
-text-transform: uppercase;
+font-weight: 500;
+line-height: 1.5em;
+letter-spacing: 0.02em;
+    }
+    .footer-social-media {
+        margin-bottom: 72px;
+    }
+    .container {
+        max-width: 320px;
     }
 }
-
 .first-li {
     display: none;
 }
