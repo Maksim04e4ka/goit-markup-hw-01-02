@@ -76,6 +76,26 @@ align-self: stretch;
 .four-sect-li:not(:last-child) {
     margin-bottom: 48px;
     }
+    .design {
+        color: var(--IRIS, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+    }
+    .bottom-studio {
+        color: var(--CLOUD, #F4F4FD);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+    }
 }
 
 .first-li {
@@ -243,7 +263,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    max-width: 768px;
     }
     
     .four-sect-li {
@@ -402,10 +421,10 @@ gap: 40px;
                             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
                             gap: 24px;
                             }
-                            .ul-number-four {
-                                display: flex;
-                                gap: 24px;
+                            .four-sect-li {
+                                width: calc((100% - 48px)/3);
                             }
+                            
                             }
                             
 
