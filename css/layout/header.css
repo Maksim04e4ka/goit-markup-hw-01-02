@@ -181,6 +181,9 @@ margin-left: 102px;
         text-transform: uppercase;
         margin-left: 102px;
     }
+    .form-modal {
+        display: flex;
+    }
     }
 
 
@@ -282,6 +285,7 @@ margin-left: 102px;
         letter-spacing: 0.3;
         text-transform: uppercase;
     }
+    
     .portfolio {
 padding-top: 96px;
     }
@@ -369,7 +373,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
         padding-top: 96px;
     }
     .design {
-        margin-left: 108px;
         width: 44px;
         color: var(--IRIS, #4D5AE5);
 font-family: Raleway;
