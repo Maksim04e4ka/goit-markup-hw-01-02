@@ -440,6 +440,21 @@ margin-left: 24px;
         display: flex;
         flex-direction: row;
     }
+    .from-backrop-htwo {
+        color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+/* Body Medium */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+margin-bottom: 16px;
+    }
+    .link-element {
+        text-decoration:underline;
+    }
 }
 .modal-window-mobile-phone {
 color: var(--NAVY-BLUE, #2E2F42);
