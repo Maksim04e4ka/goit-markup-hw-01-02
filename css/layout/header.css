@@ -384,6 +384,13 @@ text-transform: uppercase;
         margin-left: 108px;
         margin-top: 17.5px;
     }
+    .main-footer-container {
+        display: flex;
+         flex-direction: row;
+          flex-wrap: wrap;
+           gap: 72px 24px;
+           width: 584px;
+    }
 }
 .modal-window-mobile-phone {
 color: var(--NAVY-BLUE, #2E2F42);
