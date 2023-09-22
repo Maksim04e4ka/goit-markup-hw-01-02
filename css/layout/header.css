@@ -183,8 +183,39 @@ margin-left: 102px;
         display: flex;
         flex-direction: column;
     }
+.link-element {
+    color: var(--IRIS, #4D5AE5);
 
+    /* Link Text */
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
+display: flex;
+margin-top: 5px;
+}
 
+.label-privacy {
+    font-size: 17px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+    .from-backrop-htwo {
+        color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+
+/* Body Medium */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+    }
     }
 
 
