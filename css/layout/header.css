@@ -319,9 +319,7 @@ letter-spacing: 0.32px;
         text-transform: uppercase;
     }
     
-    .portfolio {
-padding-top: 96px;
-    }
+    
     .container {
         max-width: 584px;
     }
@@ -352,6 +350,7 @@ padding-left: 120px;
         line-height: 14px; 
         letter-spacing: 0.48px;
         padding-right: 16px;
+        margin: auto;
 }
 .adress-info {
     display:flex;
@@ -359,19 +358,17 @@ padding-left: 120px;
     gap: 12px;
 }
     .from-header {
-        padding-top: 25.5px;
-        padding-bottom: 25.5px;
         padding-left: 16px;
     }
     .from-nav {
 color: var(--SLATE, #434455);
 font-family: Roboto;
-font-size: 12px;
+font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 14px;
-letter-spacing: 0.48px;
-margin-right: 16px;
+line-height: 24px;
+letter-spacing: 0.32px;
+margin-left: 322px;
     }
     .nav-header {
         display: flex;
@@ -402,9 +399,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     .four-sect-li {
         width: calc((100% - 24px)/2);
     }
-    .portfolio {
-        padding-top: 96px;
-    }
+
     .design {
         width: 44px;
         color: var(--IRIS, #4D5AE5);
@@ -455,6 +450,9 @@ margin-bottom: 16px;
     }
     .link-element {
         text-decoration:underline;
+    }
+    .li-number-one {
+        width: calc((100% - 24px)/2);
     }
 }
 .modal-window-mobile-phone {
@@ -547,7 +545,6 @@ gap: 40px;
         .adress-info {
             display: flex;
             flex-direction: row;
-            padding-right: 156px;
             gap: 40px;
         }
         .design {
