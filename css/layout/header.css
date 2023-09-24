@@ -362,6 +362,7 @@ margin-right: 114px;
     display:flex;
     flex-direction: column;
     gap: 12px;
+    margin-left: -80px;
 }
 
     .from-nav {
@@ -647,6 +648,8 @@ gap: 40px;
                             }
                             .images-from-four {
                                 width: 360px;
+height: 300px;
+flex-shrink: 0;
                             }
                             }
 
