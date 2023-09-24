@@ -210,7 +210,9 @@ padding: 120px 0;
 .ul-number-two {
 display: flex;
 gap: 24px;
+flex-wrap: wrap;
 }
+
 .li-number-one {
 flex-basis: calc((100%-3*24px)/4);
 }
