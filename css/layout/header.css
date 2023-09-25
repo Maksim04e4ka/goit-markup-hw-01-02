@@ -479,6 +479,10 @@ text-transform: capitalize;
       .container {
         width: 768px;
       }
+      .imagess {
+        width: 356px;
+    height: 300px;
+      }
 }
 .modal-window-mobile-phone {
 color: var(--NAVY-BLUE, #2E2F42);
@@ -668,6 +672,7 @@ flex-shrink: 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/people-office-bg@2x.jpg);
     }
 }
+
 
 
 /* .from-header {
